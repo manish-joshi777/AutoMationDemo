@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-21T08:57:54.954Z",
+        "line": 4,
+        "name": "Logo presence on customer home page",
+        "description": "",
+        "id": "customer-login;logo-presence-on-customer-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 180155468,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2431728116,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I lunch the chrome browser",
+            "match": {
+              "location": "GivenSteps.i_lunch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1120124,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open facebook login page",
+            "match": {
+              "location": "LoginDefinition.i_open_facebook_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8222781,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Verify that logo present on page",
+            "match": {
+              "location": "LoginDefinition.i_Verify_that_logo_present_on_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 878986,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close browser",
+            "match": {
+              "location": "LoginDefinition.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Customer Login",
+    "description": "",
+    "id": "customer-login",
+    "keyword": "Feature",
+    "uri": "file:Login.feature",
+    "tags": []
+  }
+]

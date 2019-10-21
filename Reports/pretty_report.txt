@@ -1,0 +1,8 @@
+Feature: Customer Login
+
+  @login
+  Scenario: Logo presence on customer home page # Login.feature:4
+    Given I lunch the chrome browser            # GivenSteps.i_lunch_the_chrome_browser()
+    When I open facebook login page             # LoginDefinition.i_open_facebook_login_page()
+    Then I Verify that logo present on page     # LoginDefinition.i_Verify_that_logo_present_on_page()
+    Then close browser                          # LoginDefinition.close_browser()

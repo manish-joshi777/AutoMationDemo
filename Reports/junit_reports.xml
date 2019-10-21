@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.739159">
+    <testcase classname="Customer Login" name="Logo presence on customer home page" time="2.739159">
+        <system-out>
+            <![CDATA[Given I lunch the chrome browser............................................passed
+When I open facebook login page.............................................passed
+Then I Verify that logo present on page.....................................passed
+Then close browser..........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
